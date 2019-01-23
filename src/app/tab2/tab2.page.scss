@@ -1,1 +1,35 @@
+video{
+    object-fit: cover!important;
+    width: 100%;
+}
+    .titulo{
+        position: relative;
+        h3{
+            margin-top: -4px;
+            margin-bottom: 0px;
+            padding: 5px 20px;
+            background-color: #f55e00;
+            color: #fff;
+            font-weight: 100;
+        }
 
+        .proximo{
+            position: absolute;
+            right: 0px;
+            font-size: 30px;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.13);
+            padding: 0px 15px;
+            height: 100%;
+        }
+        
+        .anterior{
+            position: absolute;
+            left: 0px;
+            font-size: 30px;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.13);
+            padding: 0px 15px;
+            height: 100%;
+        }
+    }

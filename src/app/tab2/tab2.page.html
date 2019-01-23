@@ -1,9 +1,27 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button  (click)="goBack()"
+            text="Treinos"
+            defaultHref="home"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+    <video 
+      autoplay="" 
+      controls="" 
+      loop="" 
+      type="video/mp4" 
+      width="100%" 
+      poster="http://api.wiki4fit.com.br/exercicios/20.jpg" 
+      src="http://api.wiki4fit.com.br/videos/20.mp4"></video>
+      <div class="titulo">
+          <span (click)="exercicioAnterior()" class="anterior">&lt;</span>
+          <span (click)="proximoExercicio()" class="proximo">&gt;</span>
+          <h3>
+            Abdomen reto solo
+          </h3>
+      </div>
+</ion-content>
